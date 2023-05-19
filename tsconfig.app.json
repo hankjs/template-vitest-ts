@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "importHelpers": false,
+    "allowJs": false,
+    "esModuleInterop": false,
+    "noImplicitAny": false,
+    "strict": true,
+    "composite": true,
+    "allowSyntheticDefaultImports": false,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "dist",
+    "lib": ["ESNext", "dom"],
+    "types": [],
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.json", "src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "src/**/*.spec.ts"]
+}

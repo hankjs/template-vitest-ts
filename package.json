@@ -1,0 +1,16 @@
+{
+  "name": "template-vitest-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "vitest": "^0.31.1"
+  }
+}
