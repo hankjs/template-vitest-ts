@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jsdom": "^21.1.1",
     "@types/node": "^20.2.1",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^22.1.0",
     "vitest": "^0.31.1"
   }
 }
